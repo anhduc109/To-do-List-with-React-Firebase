@@ -114,6 +114,7 @@ body {
 
   .notesWrapper {
     margin-top: 10vh;
+    height: 500px;
   }
 }
 
@@ -124,6 +125,6 @@ body {
 
   .notesWrapper {
     margin-top: 8vh;
-    height: 80vh;
+    height: 500px;
   }
 }
