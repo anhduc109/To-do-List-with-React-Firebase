@@ -109,7 +109,7 @@ body {
 
 @media(max-width: 400px) {
   .notesBody {
-    height: 60%;
+    height: 400px;
   }
 
   .notesWrapper {
@@ -120,7 +120,7 @@ body {
 
 @media(max-width: 320px) {
   .notesBody{
-    height: 50%;
+    height: 40%;
   }
 
   .notesWrapper {
