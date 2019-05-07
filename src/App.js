@@ -58,7 +58,8 @@ class App extends Component {
     // this.setState({
     //   notes: previousNote
     // })
-    if (note !== "") {
+    const catchNote = note.trim();
+    if (catchNote !== "" && catchNote.length <= 255) {
       this.database.push().set({ noteContent: note });
     }
   }

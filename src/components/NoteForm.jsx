@@ -22,7 +22,7 @@ class NoteForm extends Component {
     writeNote(e){
 
         e.preventDefault();
-
+        
         this.props.addNote(this.state.newNoteContent);
 
         this.setState({
